@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: silver;
+    direction: rtl;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    background: rgb(5, 66, 141);
+    color: whitesmoke;
+}
+
+th, td{
+    padding: 20px;
+    text-align: center;
+    border: solid black 1px;
+}
+
+.tr{
+    background: whitesmoke;
+}
