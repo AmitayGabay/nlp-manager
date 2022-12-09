@@ -1,7 +1,7 @@
 const wrapper = document.querySelector(".wrapper");
 let customersArr = [];
 let number = 0;
-const myUrl = "https://nlp-hadassa.herokuapp.com/client";
+const myUrl = "https://nlp-server.onrender.com/client";
 
 const doApi = () => {
     fetch(myUrl)
